@@ -4,4 +4,5 @@
 (mapc
  'require
  '(my-native-customizations
+   my-packages
    ))
