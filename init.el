@@ -6,3 +6,9 @@
  '(my-native-customizations
    my-packages
    ))
+
+(add-hook 'after-init-hook '(lambda ()
+  (mapc
+   'require
+   '(my-keybindings
+     ))))
