@@ -10,6 +10,8 @@
 (defvar my-required-packages
   '(
     magit
+    smex
+    ido-ubiquitous
   ) "a list of packages to ensure are installed at launch.")
 
 ; method to check if all packages are installed
@@ -29,5 +31,5 @@
     (when (not (package-installed-p p))
       (package-install p))))
 
-(require 'my-package-config)
+(require 'my-package-customizations)
 (provide 'my-packages)
