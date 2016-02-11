@@ -6,6 +6,7 @@
  '(my-native-customizations
    my-packages
    my-helpers
+   my-theme-customizations
    ))
 
 (add-hook 'after-init-hook '(lambda ()
