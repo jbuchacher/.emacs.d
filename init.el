@@ -7,6 +7,7 @@
    my-packages
    my-helpers
    my-theme-customizations
+   my-simp-config
    ))
 
 (add-hook 'after-init-hook '(lambda ()

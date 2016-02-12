@@ -11,6 +11,7 @@
   '(
     magit
     smex
+    simp
     ido-ubiquitous
     darcula-theme
   ) "a list of packages to ensure are installed at launch.")
