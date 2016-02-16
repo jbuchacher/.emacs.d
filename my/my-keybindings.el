@@ -26,9 +26,12 @@
 (global-set-key (kbd "M-j M-s") 'simp-project-with-bookmark-rgrep)
 (global-set-key (kbd "M-j M-b") 'simp-project-with-bookmark-ibuffer)
 
-
 ;; BUFFER SWITCHING
 (global-set-key (kbd "M-l") 'next-multiframe-window)
 (global-set-key (kbd "M-h") 'previous-multiframe-window)
+
+;; MAC OS X SPECIFIC
+(when (system-is-mac)
+  (require 'my-mac-keybindings))
 
 (provide 'my-keybindings)
