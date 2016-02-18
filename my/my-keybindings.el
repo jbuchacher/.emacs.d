@@ -22,7 +22,6 @@
 (global-set-key (kbd "M-j f") 'simp-project-find-file)
 (global-set-key (kbd "M-j M-f") 'simp-project-with-bookmark-find-file)
 (global-set-key (kbd "M-S-p") 'simp-project-with-bookmark-find-file)
-(global-set-key (kbd "M-j M-f") 'simp-project-with-bookmark-find-file)
 (global-set-key (kbd "M-j M-s") 'simp-project-with-bookmark-rgrep)
 (global-set-key (kbd "M-j M-b") 'simp-project-with-bookmark-ibuffer)
 

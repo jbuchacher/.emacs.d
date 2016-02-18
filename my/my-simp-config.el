@@ -1,5 +1,9 @@
 (require 'simp)
 
+(simp-project-feature-with-bookmark find-file)
+(simp-project-feature-with-bookmark ibuffer)
+(simp-project-feature-with-bookmark rgrep)
+
 
 (simp-project-define
  '(:type rails
