@@ -6,4 +6,8 @@
 ;; Highlight lines
 (global-hl-line-mode 1)
 
+;; Shorter important prompts
+(defalias 'yes-or-no-p 'y-or-n-p)
+
+
 (provide 'my-native-customizations)
