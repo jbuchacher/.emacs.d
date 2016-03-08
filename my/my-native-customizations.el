@@ -3,5 +3,7 @@
 (when (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (when (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 
+;; Highlight lines
+(global-hl-line-mode 1)
 
 (provide 'my-native-customizations)
