@@ -9,6 +9,7 @@
    my-theme-customizations
    my-simp-config
    my-hooks
+   my-backups
    ))
 
 (add-hook 'after-init-hook '(lambda ()
