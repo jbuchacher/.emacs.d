@@ -9,5 +9,7 @@
 ;; Shorter important prompts
 (defalias 'yes-or-no-p 'y-or-n-p)
 
+;; Spaces instead of tabs
+(setq-default indent-tabs-mode nil)
 
 (provide 'my-native-customizations)
