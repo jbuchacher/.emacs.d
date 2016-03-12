@@ -3,6 +3,10 @@
 (when (fboundp 'tool-bar-mode) (tool-bar-mode -1))
 (when (fboundp 'scroll-bar-mode) (scroll-bar-mode -1))
 
+;; Dont split windows horizontally
+(setq split-height-threshold nil)
+(setq split-width-threshold 0)
+
 ;; Highlight lines
 (global-hl-line-mode 1)
 
