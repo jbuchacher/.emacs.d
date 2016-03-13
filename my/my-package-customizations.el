@@ -1,6 +1,7 @@
 (custom-set-variables
 
  ;; IDO
+ '(ido-mode t)
  '(ido-enable-flex-matching t)
  '(ido-use-virtual-buffers t)
  '(ido-use-filename-at-point (quote guess))
