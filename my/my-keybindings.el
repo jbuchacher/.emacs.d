@@ -6,6 +6,9 @@
 (global-set-key (kbd "M-P") 'duplicate-current-line-or-region-up)
 (global-set-key (kbd "M-N") 'duplicate-current-line-or-region-down)
 
+;; MULTI TERM
+
+(global-set-key (kbd "M-j c") 'multi-term)
 ;; MAGIT
 (global-set-key (kbd "M-j g") 'magit-status)
 (global-set-key (kbd "M-j M-g") 'magit-status-from-bookmark)
