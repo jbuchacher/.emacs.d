@@ -19,4 +19,8 @@
 ;; Spaces instead of tabs
 (setq-default indent-tabs-mode nil)
 
+;; Winner mode
+(when (fboundp 'winner-mode)
+  (winner-mode 1))
+
 (provide 'my-native-customizations)
