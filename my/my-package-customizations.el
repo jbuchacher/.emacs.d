@@ -26,6 +26,12 @@
 
  ;; COMPANY MODE
  '(company-idle-delay 0.5)
+
+ ;; MAGIT
+ '(magit-completing-read-function (quote ido-completing-read))
+ '(magit-save-repository-buffers nil)
+ '(magit-branch-read-upstream-first t)
+ '(magit-set-upstream-on-push (quote askifnotset))
  )
 
 (provide 'my-package-customizations)
