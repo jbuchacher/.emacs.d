@@ -8,6 +8,9 @@
    " "
    ..." "[" "]" " [No match]" " [Matched]" " [Not readable]" " [Too big]" " [Confirm]")))
 
+ ;; SMEX
+ '(smex-save-file (expand-file-name ".smex-items" temporary-file-directory))
+
  ;; IDO-UBIQUITOUS
  '(ido-ubiquitous-mode t)
 
