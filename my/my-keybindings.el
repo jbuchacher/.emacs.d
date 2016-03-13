@@ -4,6 +4,7 @@
 
 ;; MAGIT
 (global-set-key (kbd "M-j g") 'magit-status)
+(global-set-key (kbd "M-j M-g") 'magit-status-from-bookmark)
 
 ;; SMEX
 (global-set-key (kbd "M-x") 'smex)

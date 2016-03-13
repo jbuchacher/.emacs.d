@@ -5,7 +5,7 @@
  'require
  '(my-native-customizations
    my-packages
-   my-helpers
+   my-functions
    my-theme-customizations
    my-simp-config
    my-hooks
