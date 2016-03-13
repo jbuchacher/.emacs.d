@@ -18,6 +18,9 @@
  ;; SMEX
  '(smex-save-file (expand-file-name ".smex-items" temporary-file-directory))
 
+ ;; RECENTF
+ '(recentf-save-file (expand-file-name ".recentf" temporary-file-directory))
+
  ;; BOOKMARKS
  '(bookmark-default-file "~/.emacs.d/my/my-bookmarks.el")
 
