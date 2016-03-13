@@ -23,4 +23,6 @@
 (when (fboundp 'winner-mode)
   (winner-mode 1))
 
+(delete-selection-mode t)
+
 (provide 'my-native-customizations)
