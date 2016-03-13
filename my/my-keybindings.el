@@ -2,6 +2,10 @@
 (define-key key-translation-map "\C-j" "\C-x")
 (global-set-key (kbd "M-j") nil)
 
+;; TEXT EDITING
+(global-set-key (kbd "M-P") 'duplicate-current-line-or-region-up)
+(global-set-key (kbd "M-N") 'duplicate-current-line-or-region-down)
+
 ;; MAGIT
 (global-set-key (kbd "M-j g") 'magit-status)
 (global-set-key (kbd "M-j M-g") 'magit-status-from-bookmark)
@@ -21,7 +25,6 @@
 (global-set-key (kbd "M-j B") 'simp-project-ibuffer)
 
 (global-set-key (kbd "M-p") 'simp-project-find-file)
-(global-set-key (kbd "M-P") 'simp-project-with-bookmark-find-file)
 (global-set-key (kbd "M-j f") 'simp-project-find-file)
 (global-set-key (kbd "M-j M-f") 'simp-project-with-bookmark-find-file)
 (global-set-key (kbd "M-S-p") 'simp-project-with-bookmark-find-file)
