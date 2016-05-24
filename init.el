@@ -10,6 +10,7 @@
    my-simp-config
    my-hooks
    my-backups
+   my-add-to-lists
    ))
 
 (add-hook 'after-init-hook '(lambda ()
