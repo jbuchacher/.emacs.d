@@ -38,6 +38,11 @@
 (global-set-key (kbd "M-l") 'next-multiframe-window)
 (global-set-key (kbd "M-h") 'previous-multiframe-window)
 
+;; MULTIPLE CURSORS
+(global-set-key (kbd "C->") 'mc/mark-next-like-this)
+(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
+
+
 ;; MAC OS X SPECIFIC
 (when (system-is-mac)
   (require 'my-mac-keybindings))
