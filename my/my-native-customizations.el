@@ -24,5 +24,6 @@
   (winner-mode 1))
 
 (delete-selection-mode t)
+(electric-pair-mode t)
 
 (provide 'my-native-customizations)
