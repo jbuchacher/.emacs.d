@@ -36,10 +36,9 @@
 
  ;; MULTI TERM
  '(multi-term-program "/bin/zsh")
-
- ;; WEB MODE
- '(web-mode-content-types-alist
-   '(("jsx" . "\\.js[x]?\\'")))
  )
+
+(setq web-mode-content-types-alist
+  '(("jsx" . "\\.js[x]?\\'")))
 
 (provide 'my-package-customizations)
