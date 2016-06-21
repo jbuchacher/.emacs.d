@@ -2,7 +2,7 @@
 (defun balance-after-split (orig-fun &rest args)
   (balance-windows))
 
-(defun balance-after-delete ()
+(defun balance-after-delete (&optional arg)
   (balance-windows))
 
 (advice-add 'split-window :after 'balance-after-split)
