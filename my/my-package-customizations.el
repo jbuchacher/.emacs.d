@@ -39,6 +39,14 @@
  )
 
 (setq web-mode-content-types-alist
-  '(("jsx" . "\\.js[x]?\\'")))
+      '(("jsx" . "\\.js[x]?\\'")))
+
+;; FLYCHECK
+(global-flycheck-mode)
+(setq-default flycheck-disabled-checkers
+              (append flycheck-disabled-checkers
+                      '(javascript-jshint json-jsonlist)))
+
+(flycheck-add-mode 'javascript-eslint 'web-mode)
 
 (provide 'my-package-customizations)
