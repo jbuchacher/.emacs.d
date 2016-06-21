@@ -1,11 +1,8 @@
 ;;; WINDOW SPLITTING
-(defun balance-after-split (orig-fun &rest args)
+(defun balance-after (&rest args)
   (balance-windows))
 
-(defun balance-after-delete (&optional arg)
-  (balance-windows))
-
-(advice-add 'split-window :after 'balance-after-split)
-(advice-add 'delete-window :after 'balance-after-delete)
+(advice-add 'split-window :after 'balance-after)
+(advice-add 'delete-window :after 'balance-after)
 
 (provide 'my-advice)
