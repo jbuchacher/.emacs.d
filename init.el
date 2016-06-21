@@ -11,6 +11,7 @@
    my-hooks
    my-backups
    my-add-to-lists
+   my-advice
    ))
 
 (add-hook 'after-init-hook '(lambda ()
