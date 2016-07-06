@@ -5,6 +5,11 @@
 ;; TEXT EDITING
 (global-set-key (kbd "M-P") 'duplicate-current-line-or-region-up)
 (global-set-key (kbd "M-N") 'duplicate-current-line-or-region-down)
+(global-set-key (kbd "M-n") 'move-text-down)
+(global-set-key (kbd "M-p") 'move-text-up)
+(global-set-key (kbd "M-/") 'hippie-expand)
+(global-set-key (kbd "C-x j") 'next-error)
+
 
 ;; MULTI TERM
 
@@ -27,7 +32,6 @@
 (global-set-key (kbd "M-j b") 'simp-project-ibuffer-files-only)
 (global-set-key (kbd "M-j B") 'simp-project-ibuffer)
 
-(global-set-key (kbd "M-p") 'simp-project-find-file)
 (global-set-key (kbd "M-j f") 'simp-project-find-file)
 (global-set-key (kbd "M-j M-f") 'simp-project-with-bookmark-find-file)
 (global-set-key (kbd "M-S-p") 'simp-project-with-bookmark-find-file)
@@ -41,7 +45,6 @@
 ;; MULTIPLE CURSORS
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)
 (global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
-
 
 ;; MAC OS X SPECIFIC
 (when (system-is-mac)
