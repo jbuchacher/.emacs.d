@@ -36,13 +36,7 @@
 
  ;; MULTI TERM
  '(multi-term-program "/bin/zsh")
-
- ;; WEB MODE
- '(web-mode-code-indent-offset 2)
  )
-
-(setq web-mode-content-types-alist
-      '(("jsx" . "\\.js[x]?\\'")))
 
 ;; FLYCHECK
 (global-flycheck-mode)
