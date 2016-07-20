@@ -9,6 +9,7 @@
  'web-mode-hook
  (lambda ()
    (linum-mode)
+   (eslint-set-closest-executable)
    (set-node-modules-path)
    (flycheck-mode)
    (setq web-mode-content-types-alist

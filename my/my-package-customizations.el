@@ -43,7 +43,7 @@
 (setq-default flycheck-disabled-checkers
               (append flycheck-disabled-checkers
                       '(javascript-jshint json-jsonlist)))
-
-(flycheck-add-mode 'javascript-eslint 'web-mode)
+(with-eval-after-load 'flycheck
+  (flycheck-add-mode 'javascript-eslint 'web-mode))
 
 (provide 'my-package-customizations)
