@@ -3,10 +3,10 @@
 (global-set-key (kbd "M-j") nil)
 
 ;; TEXT EDITING
-(global-set-key (kbd "M-P") 'duplicate-current-line-or-region-up)
-(global-set-key (kbd "M-N") 'duplicate-current-line-or-region-down)
-(global-set-key (kbd "M-n") 'move-text-down)
-(global-set-key (kbd "M-p") 'move-text-up)
+(global-set-key (kbd "M-P") 'md/duplicate-up)
+(global-set-key (kbd "M-N") 'md/duplicate-down)
+(global-set-key (kbd "M-p") 'md/move-lines-up)
+(global-set-key (kbd "M-n") 'md/move-lines-down)
 (global-set-key (kbd "M-/") 'hippie-expand)
 (global-set-key (kbd "C-x j") 'next-error)
 
@@ -41,6 +41,8 @@
 ;; BUFFER SWITCHING
 (global-set-key (kbd "M-l") 'next-multiframe-window)
 (global-set-key (kbd "M-h") 'previous-multiframe-window)
+(global-set-key (kbd "C-S-b") 'bury-buffer)
+(global-set-key (kbd "C-S-f") 'unbury-buffer)
 
 ;; MULTIPLE CURSORS
 (global-set-key (kbd "C->") 'mc/mark-next-like-this)

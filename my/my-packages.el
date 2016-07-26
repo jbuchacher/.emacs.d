@@ -1,8 +1,6 @@
 (require 'package)
 (add-to-list 'package-archives
              '("melpa" . "http://melpa.milkbox.net/packages/") t)
-(add-to-list 'package-archives
-             '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (package-initialize)
 
 
@@ -21,7 +19,7 @@
     floobits
     web-mode
     flycheck
-    move-text
+    move-dup
   ) "a list of packages to ensure are installed at launch.")
 
 ; method to check if all packages are installed
