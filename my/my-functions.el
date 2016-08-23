@@ -1,3 +1,10 @@
+;; BUFFERS
+
+(defun kill-other-buffers ()
+  "Kill all other buffers."
+  (interactive)
+  (mapc 'kill-buffer (delq (current-buffer) (buffer-list))))
+
 ;; TEXT MANIPULATION
 (defun duplicate-current-line-or-region-down (arg)
   (interactive "p")
