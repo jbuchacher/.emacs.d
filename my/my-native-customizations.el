@@ -1,3 +1,6 @@
+;; Custom
+(setq custom-file "~/my-package-customizations.el")
+
 ;; No startup screen
 (setq inhibit-startup-message t)
 
@@ -23,7 +26,7 @@
 (when (fboundp 'winner-mode)
   (winner-mode 1))
 
-(delete-selection-mode t)
+(delete-selection-mode 1)
 (electric-pair-mode t)
 
 (provide 'my-native-customizations)
