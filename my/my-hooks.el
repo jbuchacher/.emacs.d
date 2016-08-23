@@ -23,5 +23,10 @@
    (setq web-mode-markup-indent-offset 2)
    (setq web-mode-sql-indent-offset 2)))
 
+(add-hook
+ 'css-mode-hook
+ (lambda ()
+   (setq css-indent-offset 2)))
+
 
 (provide 'my-hooks)
