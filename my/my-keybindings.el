@@ -9,7 +9,7 @@
 (global-set-key (kbd "M-n") 'md/move-lines-down)
 (global-set-key (kbd "M-/") 'hippie-expand)
 (global-set-key (kbd "C-x j") 'next-error)
-
+(global-set-key (kbd "\'") 'insert-pair)
 
 ;; MULTI TERM
 
