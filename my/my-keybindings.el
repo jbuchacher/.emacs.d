@@ -7,9 +7,6 @@
 (global-set-key (kbd "C-x j") 'next-error)
 (global-set-key (kbd "\'") 'insert-pair)
 
-;; MULTI TERM
-(global-set-key (kbd "M-j c") 'multi-term)
-
 ;; (old meta-x)
 (global-set-key (kbd "C-c C-c M-x") 'execute-extended-command)
 

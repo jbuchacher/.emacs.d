@@ -10,9 +10,6 @@
 
  ;; COMPANY MODE
  '(company-idle-delay 0.5)
-
- ;; MULTI TERM
- '(multi-term-program "/bin/zsh")
  )
 
 ;; FLYCHECK

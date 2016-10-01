@@ -8,7 +8,6 @@
     company
     csharp-mode
     wgrep
-    multi-term
     floobits
     web-mode
     flycheck
