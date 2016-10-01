@@ -26,6 +26,9 @@
  '(magit-config
    smex-config
    simp-config
+   ido-ubiquitous-config
+   multiple-cursors-config
+   multi-term-config
    ))
 
 (require 'my-package-customizations)
