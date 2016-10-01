@@ -4,7 +4,6 @@
 (require 'package)
 (defvar my-required-packages
   '(
-    ido-ubiquitous
     darcula-theme
     company
     csharp-mode
