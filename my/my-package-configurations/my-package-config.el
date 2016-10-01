@@ -4,7 +4,6 @@
 (require 'package)
 (defvar my-required-packages
   '(
-    web-mode
     flycheck
     move-dup
   ) "A list of packages to ensure are installed at launch.")
@@ -26,6 +25,7 @@
    multi-term-config
    darcula-theme-config
    company-config
+   web-mode-config
    ))
 
 (require 'my-package-customizations)
