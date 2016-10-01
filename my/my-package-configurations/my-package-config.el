@@ -4,7 +4,6 @@
 (require 'package)
 (defvar my-required-packages
   '(
-    company
     csharp-mode
     wgrep
     floobits
@@ -29,6 +28,7 @@
    multiple-cursors-config
    multi-term-config
    darcula-theme-config
+   company-config
    ))
 
 (require 'my-package-customizations)
