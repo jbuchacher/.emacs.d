@@ -1,3 +1,6 @@
+;;; init.el --- Summary
+;;; Commentary:
+;;; Code:
 (package-initialize)
 
 (let ((default-directory "~/.emacs.d/"))
@@ -22,3 +25,4 @@
    '(my-keybindings
      my-mac-support
      ))))
+;;; init.el ends here
