@@ -17,6 +17,5 @@
    move-dup-config
    ))
 
-(require 'my-package-customizations)
 (provide 'my-package-config)
 ;;; my-package-config.el ends here

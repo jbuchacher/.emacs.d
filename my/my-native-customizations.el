@@ -27,7 +27,14 @@
     ("
 >> " "" "
    " "
-   ..." "[" "]" " [No match]" " [Matched]" " [Not readable]" " [Too big]" " [Confirm]"))))
+   ..." "[" "]" " [No match]" " [Matched]" " [Not readable]" " [Too big]" " [Confirm]")))
+
+ ;; RECENTF
+ '(recentf-save-file (expand-file-name ".recentf" temporary-file-directory))
+
+ ;; BOOKMARKS
+ '(bookmark-default-file "~/.emacs.d/my/my-bookmarks.el")
+ )
 
 ;; Remove scrollbars, menu bars, and toolbars
 (when (fboundp 'menu-bar-mode) (menu-bar-mode -1))
