@@ -1,3 +1,6 @@
+;;; init.el --- Summary
+;;; Commentary:
+;;; Code:
 (package-initialize)
 
 (let ((default-directory "~/.emacs.d/"))
@@ -6,6 +9,7 @@
 (mapc
  'require
  '(my-native-customizations
+   my-native-keybindings
    my-packages
    my-functions
    my-theme-customizations
@@ -22,3 +26,4 @@
    '(my-keybindings
      my-mac-support
      ))))
+;;; init.el ends here
