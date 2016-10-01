@@ -4,7 +4,6 @@
 (require 'package)
 (defvar my-required-packages
   '(
-    smex
     simp
     ido-ubiquitous
     darcula-theme
@@ -28,6 +27,7 @@
 (mapc
  'require
  '(magit-config
+   smex-config
    ))
 
 (require 'my-package-customizations)
