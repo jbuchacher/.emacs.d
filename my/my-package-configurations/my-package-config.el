@@ -4,8 +4,6 @@
 (require 'package)
 (defvar my-required-packages
   '(
-    wgrep
-    floobits
     web-mode
     flycheck
     move-dup
