@@ -25,7 +25,11 @@
         when (not (package-installed-p p)) do (return nil)
         finally (return t)))
 
-(require 'magit-config)
+(mapc
+ 'require
+ '(magit-config
+   ))
+
 (require 'my-package-customizations)
 (provide 'my-package-config)
 ;;; my-package-config.el ends here
