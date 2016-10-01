@@ -4,7 +4,6 @@
 (require 'package)
 (defvar my-required-packages
   '(
-    darcula-theme
     company
     csharp-mode
     wgrep
@@ -29,6 +28,7 @@
    ido-ubiquitous-config
    multiple-cursors-config
    multi-term-config
+   darcula-theme-config
    ))
 
 (require 'my-package-customizations)
