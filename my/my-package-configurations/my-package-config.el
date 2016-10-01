@@ -4,7 +4,6 @@
 (require 'package)
 (defvar my-required-packages
   '(
-    csharp-mode
     wgrep
     floobits
     web-mode
