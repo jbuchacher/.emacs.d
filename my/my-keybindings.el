@@ -1,7 +1,3 @@
-;; GLOBAL
-(define-key key-translation-map "\C-j" "\C-x")
-(global-set-key (kbd "M-j") nil)
-
 ;; TEXT EDITING
 (global-set-key (kbd "M-P") 'md/duplicate-up)
 (global-set-key (kbd "M-N") 'md/duplicate-down)
@@ -14,9 +10,6 @@
 ;; MULTI TERM
 
 (global-set-key (kbd "M-j c") 'multi-term)
-;; MAGIT
-(global-set-key (kbd "M-j g") 'magit-status)
-(global-set-key (kbd "M-j M-g") 'magit-status-from-bookmark)
 
 ;; SMEX
 (global-set-key (kbd "M-x") 'smex)

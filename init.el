@@ -9,6 +9,7 @@
 (mapc
  'require
  '(my-native-customizations
+   my-native-keybindings
    my-packages
    my-functions
    my-theme-customizations

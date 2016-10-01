@@ -13,5 +13,6 @@
   (package-refresh-contents)
   (package-install 'use-package))
 
+(require 'my-package-config)
 (provide 'my-packages)
 ;;; my-packages.el ends here
