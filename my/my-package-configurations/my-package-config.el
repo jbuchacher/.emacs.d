@@ -4,7 +4,6 @@
 (require 'package)
 (defvar my-required-packages
   '(
-    multiple-cursors
     darcula-theme
     company
     csharp-mode

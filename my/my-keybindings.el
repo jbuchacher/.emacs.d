@@ -8,7 +8,6 @@
 (global-set-key (kbd "\'") 'insert-pair)
 
 ;; MULTI TERM
-
 (global-set-key (kbd "M-j c") 'multi-term)
 
 ;; (old meta-x)
@@ -19,10 +18,6 @@
 (global-set-key (kbd "M-h") 'previous-multiframe-window)
 (global-set-key (kbd "C-S-b") 'bury-buffer)
 (global-set-key (kbd "C-S-f") 'unbury-buffer)
-
-;; MULTIPLE CURSORS
-(global-set-key (kbd "C->") 'mc/mark-next-like-this)
-(global-set-key (kbd "C-<") 'mc/mark-previous-like-this)
 
 ;; MAC OS X SPECIFIC
 (when (system-is-mac)
