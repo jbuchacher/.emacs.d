@@ -5,7 +5,7 @@
   :ensure t
   :config
   (custom-set-variables
-   (ido-ubiquitous-mode t))
+   '(ido-ubiquitous-mode t))
   )
 
 (provide 'ido-ubiquitous-config)
