@@ -13,7 +13,6 @@
    my-packages
    my-functions
    my-theme-customizations
-   my-simp-config
    my-hooks
    my-backups
    my-add-to-lists
