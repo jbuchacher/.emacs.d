@@ -10,8 +10,6 @@
     (set-node-modules-path)
     (flycheck-mode)
     (custom-set-variables
-     '(web-mode-content-types-alist
-       '(("jsx" . "\\.js[x]?\\'")))
      '(web-mode-markup-indent-offset 2)
      '(web-mode-css-indent-offset 2)
      '(web-mode-code-indent-offset 2)
@@ -21,6 +19,8 @@
      '(web-mode-markup-indent-offset 2)
      '(web-mode-sql-indent-offset 2))
     )
+  (setq web-mode-content-types-alist
+        '(("jsx" . "\\.js[x]?\\'")))
   (add-hook
    'web-mode-hook 'my-web-mode-hook)
   )

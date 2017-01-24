@@ -15,6 +15,7 @@
    web-mode-config
    flycheck-config
    move-dup-config
+   elixir-config
    ))
 
 (provide 'my-package-config)
