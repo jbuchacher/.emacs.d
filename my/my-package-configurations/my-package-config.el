@@ -16,6 +16,7 @@
    flycheck-config
    move-dup-config
    elixir-config
+   swift-config
    ))
 
 (provide 'my-package-config)
