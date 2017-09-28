@@ -7,7 +7,7 @@
  '(magit-config
    smex-config
    simp-config
-   ido-ubiquitous-config
+   ido-completing-read-config
    multiple-cursors-config
    multi-term-config
    darcula-theme-config
@@ -17,6 +17,8 @@
    move-dup-config
    elixir-config
    swift-config
+   edit-server-config
+   groovy-config
    ))
 
 (provide 'my-package-config)
