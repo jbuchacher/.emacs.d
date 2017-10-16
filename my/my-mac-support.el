@@ -2,6 +2,8 @@
   ;; Set command key to be meta instead of option
   (setq ns-command-modifier 'meta)
 
+  (exec-path-from-shell-initialize)
+
   ;; Full screen window without OSX native full screen UI
   (defun fast-fullscreen-2560 ()
     "Position the frame above the visible screen rectangle,
@@ -12,6 +14,5 @@ auto hide the toolbar, and take up the whole screen."
     (tool-bar-mode 0)
     (set-frame-size nil 363 103))
   )
-
 
 (provide 'my-mac-support)
