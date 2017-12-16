@@ -5,7 +5,7 @@
   :ensure t
   :config
   (custom-set-variables
-   '(company-idle-delay 0.5)
+   '(company-idle-delay 0)
    '(company-dabbrev-downcase nil))
   )
 
