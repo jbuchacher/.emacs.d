@@ -20,6 +20,7 @@
  '(indent-tabs-mode nil)
 
  ;; IDO
+ '(ido-ubiquitous-mode t)
  '(ido-mode t)
  '(ido-enable-flex-matching t)
  '(ido-use-virtual-buffers t)

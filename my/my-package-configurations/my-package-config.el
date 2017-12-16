@@ -7,7 +7,6 @@
  '(magit-config
    smex-config
    simp-config
-   ido-completing-read-config
    multiple-cursors-config
    multi-term-config
    darcula-theme-config
