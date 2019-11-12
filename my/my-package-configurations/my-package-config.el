@@ -16,8 +16,9 @@
    move-dup-config
    elixir-config
    swift-config
-   edit-server-config
+   ;; edit-server-config
    groovy-config
+   gitlab-config
    ))
 
 (provide 'my-package-config)
