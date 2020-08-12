@@ -2,7 +2,7 @@
   ;; Set command key to be meta instead of option
   (setq ns-command-modifier 'meta)
 
-  (exec-path-from-shell-initialize)
+  ;; (exec-path-from-shell-initialize)
 
   ;; Full screen window without OSX native full screen UI
   (defun fast-fullscreen-2560 ()

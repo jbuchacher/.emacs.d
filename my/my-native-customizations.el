@@ -14,7 +14,7 @@
  '(split-width-threshold 0)
 
  ;; Dont make windows tiny
- '(window-min-width 80)
+ '(window-min-width 60)
 
  ;; Spaces instead of tabs
  '(indent-tabs-mode nil)
