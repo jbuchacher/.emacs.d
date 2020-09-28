@@ -21,5 +21,8 @@
    gitlab-config
    ))
 
+(use-package ido-completing-read+
+  :ensure t)
+
 (provide 'my-package-config)
 ;;; my-package-config.el ends here
